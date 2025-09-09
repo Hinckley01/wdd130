@@ -1,0 +1,18 @@
+
+nav {
+   background-color: #008b6187;
+   padding: 10px;
+}
+h1  {
+   color: rgb(115, 0, 255);
+}
+img {
+   width: 150px;
+   height: auto;
+   border: 1px solid black;
+   padding: 2px;
+   box-shadow: 0 0 30px hsl(80, 16%, 4%);
+}
+p {
+   padding: 10px;
+}
