@@ -1,3 +1,6 @@
+header{
+   background-color: antiquewhite;
+}
 nav {
    background-color: steelblue;
    padding: 10px;
@@ -5,7 +8,7 @@ nav {
 main  {
    max-width: 840px;
 
-}   
+} 
 nav a{
    color: white;
    padding: 10px;
