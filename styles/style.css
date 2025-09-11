@@ -2,6 +2,14 @@ nav {
    background-color: rgb(239, 247, 0);
    padding: 10px;
 }
+nav a{
+   padding: 5px;
+   color: steelblue;
+   display: block;
+}
+main{
+   max-width: 840px;
+}
 h1  {
    color: rgb(0, 0, 0);
 }
@@ -16,7 +24,7 @@ img {
    box-shadow: 0 0 30px gray;
 }
 p {
-   padding: 30px;
+   padding: 5px;
 }
 aside {
    width: 20em;
