@@ -26,7 +26,7 @@ nav a{
 main{
    max-width: 840px;
    grid-column: 2/3;
-   margin: 1rem;
+
 }
 main img {
    float: right;
@@ -59,13 +59,15 @@ p {
    align-items: center;
 }
 aside {
-   width: 20em;
+   width: 20rem;
    margin: 1em;
    border: 1px solid rgba(0,0,0.2);
    padding:1em;
    background-color: #eee;
    color: #333;
    text-align: center;
+   grid-column: 1/2;
+   grid-row: 1/2;
 }
 aside img {
    width: 200px;
