@@ -97,7 +97,9 @@ img {
 }
 .adventure {
    margin: 40px;
-   background-color: #3498db;
+   background-color: #98adba;
+   text-align: center;
+   font-size: large;
 }
 .adventure-img{
    display: flex;
