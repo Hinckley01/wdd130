@@ -114,187 +114,31 @@
    font-size: 1.2rem;
  }
  
+ /* ---------- ADVENTURE ---------- */
  .adventure {
-  margin: 40px;
-  background-color: #98adba;
-  text-align: center;
-  font-size: large;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.adventure-img {
-  display: flex;
-  flex-wrap: wrap;                /* allow wrapping on small screens */
-  justify-content: center;        /* center align */
-  gap: 30px;                      /* spacing between items */
-}
-
-.adventure-img figure {
-  flex: 1 1 200px;                /* responsive sizing */
-  max-width: 220px;               /* prevent too wide */
-  text-align: center;
-}
-
-.adventure-img img {
-  width: 100%;                    /* scale image to fit box */
-  height: auto;
-  border-radius: 10px;
-}
-
-.adventure-img figcaption {
-  margin-top: 8px;
-  font-weight: bold;
-  color: #222;
-}
-
- .contact-info {
-  background-color: var(--color3);
-  padding: 10px;
+   margin: 40px;
+   background-color: #98adba;
+   text-align: center;
+   font-size: large;
  }
- .contact-info h2 {
-  color: var(--secondary-color);
-  padding: 10px;
-  font: 2rem;
+ 
+ .adventure-img {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 40px;
  }
- .contact-info p{
-  padding: 5px;
-  font-size: 1.2rem;
+ 
+ .adventure-img figure {
+   flex: 1;
+   min-width: 200px;
+   text-align: center;
  }
- .contact-info img{
-  width: 2rem;
-  height: auto;
-  top: 5rem;
+ 
+ .adventure figcaption {
+   margin-top: 10px;
+   font-weight: bold;
  }
- .team-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 30px;
-  flex-wrap: wrap;
-  margin: 30px 0;
-}
-
-.team-container figure {
-  text-align: center;
-  max-width: 220px;
-}
-
-.team-container img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-}
-
-.map iframe {
-  border: none;
-  width: 100%;
-  height: 400px;
-}
-
- .contact-form{
-  max-width: 600px;
-  margin: 0 auto;
-  background: var(--color);
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px var(--color4);
- }
- fieldset {
-  border: 1px solid var(--color3);
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 15px;
-}
-
-legend {
-  font-weight: bold;
-  padding: 0 10px;
-}
-label {
-  display: block; 
-  font-size: 0.9rem;  
-  padding: 5px;
-
-}
-
-label, input, button, select, textarea {
-  font-family: 'Poppins', sans-serif;
-}
-input, select, textarea {
-  padding: 5px;
-  font-size: 14px;
-}
-input[type="checkbox"] {
-  width: 20px;
-  height: 20px;
-  vertical-align: bottom;
-}
-
-textarea {
-  width: 100%; 
-  padding: 10px; 
-  border: 1px solid var(--color5); 
-  border-radius: 5px; 
-  font-size: 1rem; 
-}
-button {
-  padding: 10px;
-  background-color: var(--color6);
-  color: var(--color);
-  margin: 2rem;
-  border-radius: 20px solid var(--color4);
-  font-size: 20px;
-}
-button:hover {
-  background-color: var(--color7);
-}
-.newsletter {
-  padding: 1rem;
-  background-color: var(--color2);
-}
-.newsletter h2 {
-  color: var(--secondary-color);
-  margin-bottom: 20px;
-}
-.column2 {
-  grid-template-columns: 1fr 1fr;
-}
-input{
-  padding: 10px;
-  width: 300px;
-  border: 1px solid var(--color3);
-  border-radius: 5px;
-  align-items: center;
-}
-.call-to-action {
-  text-align: center;
-  margin: 40px 0;
-  padding: 10px;
-}
-
-.call-to-action h2 {
-  font-size: 2rem;
-  color: var(--primary-color);
-}
-
-.call-to-action p {
-  font-size: 1.2rem;
-  padding: 10px;
-}
-.cta-button {
-  display: inline-block;
-  padding: 10px;
-  background-color: var(--secondary-color);
-  color: black;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.cta-button:hover {
-  background-color: var(--color8);
-}
  
  /* ---------- FOOTER ---------- */
  footer {
