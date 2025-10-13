@@ -117,30 +117,82 @@
  }
  
  /* ---------- ADVENTURE ---------- */
- .adventure {
-   margin: 40px;
-   background-color: #98adba;
-   text-align: center;
-   font-size: large;
- }
- 
- .adventure-img {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   gap: 40px;
- }
- 
- .adventure-img figure {
-   flex: 1;
-   min-width: 200px;
-   text-align: center;
- }
- 
- .adventure figcaption {
-   margin-top: 10px;
-   font-weight: bold;
- }
+ /* Adventure Section */
+.adventure {
+  background-color: #9bb2bf;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.adventure h2 {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Image Grid */
+.adventure-img {
+  display: flex;
+  flex-wrap: wrap; /* make it responsive */
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.5rem; /* space between images */
+}
+
+/* Each figure (image + caption) */
+.adventure-img figure {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  flex: 1 1 220px;
+  max-width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.adventure-img figure:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Image styling */
+.adventure-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Caption under image */
+.adventure-img figcaption {
+  padding: 0.75rem;
+  font-weight: 600;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Optional hover caption color change */
+.adventure-img figure:hover figcaption {
+  color: #005fa3;
+}
+.adventure-img figure {
+  position: relative;
+}
+
+.adventure-img figure::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.4), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.adventure-img figure:hover::after {
+  opacity: 1;
+}
+
  .contact-info {
   background-color: var(--color3);
   padding: 10px;
